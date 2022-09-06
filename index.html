@@ -13,22 +13,18 @@
   <div class="page">
 
     <!--START-Шапка сайта, блок header-->
-    <header class="header indent-bottom">
-      <div class="logo logo_place_header">
-        <a href="#">
-          <img src="./images/logo_place_header.svg" alt="Яндек Практикум">
-        </a>
-      </div>
-      <h1 class="header__title">Научится учится</h1>
-      <div class="header__subtitle">
-        <span>
-          Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-        </span>
+    <header class="header">
+      <a href="#" class="logo logo_place_header">
+        <img src="./images/logo_place_header.svg" alt="Яндек Практикум">
+      </a>
+      <h1 class="header__title">Научиться учиться</h1>
+      <h2 class="header__subtitle">
+        Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
         <a href="#" class="header__link">Узнать &rarr;</a>
-      </div>
-      <img class="main-illustration" src="./images/header-image.png"
+      </h2>
+      <img class="header__main-illustration" src="./images/header-image.png"
         alt="Иллюстрация по картине Федора Решетникова Опять двойка">
-      <div class="square-pic">
+      <div class="header__square-pic">
       </div>
     </header>
     <!--END-Шапка сайта, блок header-->
@@ -36,11 +32,9 @@
     <!--START-Основное содержимое страницы, блок content-->
     <main class="content">
       <!--START-Секция, блок description-->
-      <section class="description indent-bottom">
+      <section class="description">
         <div class="two-columns">
-          <h2 class="two-columns__bref">
-            <a href="#" class="two-columns__link">Главные проблемы в обученнии</a>
-          </h2>
+          <h2 class="two-columns__bref">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">
               Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и
@@ -64,10 +58,10 @@
       <!--END-Секция, блок description-->
 
       <!--START-Секция, блок digits-->
-      <section class="digits indent-bottom">
-        <h2 class="section-title centered-block">Цифры и факты</h2>
-        <h3 class="section-subtitle centered-block">Про учёбу и мозг</h3>
-        <div class="table centered-block">
+      <section class="digits">
+        <h2 class="section-title">Цифры и факты</h2>
+        <h3 class="section-subtitle">Про учёбу и мозг</h3>
+        <div class="table">
           <div class="table__cell">
             <h4 class="table__heading">86 миллиардов</h4>
             <p class="table__text">
@@ -79,7 +73,7 @@
             <p class="table__text">
               Число нуждающихся в повышении квалификации
             </p>
-            <p class="table__text-next">
+            <p class="table__text">
               Всемирный Банк, 2017
             </p>
           </div>
@@ -98,9 +92,9 @@
           <div class="table__cell">
             <h4 class="table__heading">420 миллионов</h4>
             <p class="table__text">
-              Число взрослых людеймоложе 25 лет, не имеющих образования для трудоустройства
+              Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства
             </p>
-            <p class="table__text-next">
+            <p class="table__text">
               Всемирный Банк, 2017
             </p>
           </div>
@@ -136,13 +130,13 @@
 
       <!--START-Секция, блок kaufman-->
       <section class="kaufman">
-        <h2 class="section-title centered-block section-title_theme_dark">
+        <h2 class="section-title section-title_theme_dark">
           Принципы обучения
         </h2>
-        <h3 class="section-subtitle centered-block section-subtitle_theme_dark">
+        <h3 class="section-subtitle section-subtitle_theme_dark">
           от Джоша Кауфмана
         </h3>
-        <div class="table centered-block table_theme_dark">
+        <div class="table table_theme_dark">
           <div class="table__cell table__cell_theme_dark">
             <h4 class="table__heading">1</h4>
             <p class="table__text table__text_theme_dark">
@@ -214,23 +208,21 @@
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
-          <div class="logo logo_place_footer">
-            <a href="#">
-              <img src="./images/logo_place_footer.svg" alt="Яндек Практикум">
-            </a>
-          </div>
+          <a href="#" class="logo logo_place_footer">
+            <img src="./images/logo_place_footer.svg" alt="Яндек Практикум">
+          </a>
           <p class="footer__author">
             &copy; Николай Докукин
           </p>
         </div>
-        <div class="footer__column footer__column_content_info">
+        <nav class="footer__column footer__column_content_info">
           <h3 class="footer__column-heading">О Практикуме</h3>
           <ul class="footer__column-links">
             <li><a href="#" class="footer__column-link">Главная</a></li>
             <li><a href="#" class="footer__column-link">Концепция</a></li>
             <li><a href="#" class="footer__column-link">Наставники</a></li>
           </ul>
-        </div>
+        </nav>
         <div class="footer__column footer__column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
           <ul class="footer__column-links">

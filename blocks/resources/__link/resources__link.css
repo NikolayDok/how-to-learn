@@ -1,0 +1,11 @@
+.resources__link {
+  width: 270px;
+  height: 38px;
+  object-fit: contain;
+  object-position: 50% 0;
+  transition: opacity .4s ease;
+}
+
+.resources__link:hover {
+  opacity: .6;
+}
